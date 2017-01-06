@@ -32,7 +32,7 @@ class Curl{
     }                  
 
     public function grab_page($site){
-        if(file_exists($this->cookie)){
+        if(is_file($this->cookie)){
            // ตั้งเงื่อนไขต่างๆได้ตามใจเลยจ้า;
         }else{
 
